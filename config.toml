@@ -1,4 +1,6 @@
-baseURL = "https://alemos.dev"
+baseURL = ""
 languageCode = ["pt-br","en-us"]
-title = ""
+title = "Dev Files"
 theme = "tale"
+[Author]
+name="Escrito com carinho por Anderson Lemos"
