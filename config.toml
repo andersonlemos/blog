@@ -1,8 +1,7 @@
 languageCode = "pt-br"
 baseURL = ""
-
 title = "Dev Files"
 theme = "tale"
 
 [Author]
-  name="Escrito por Anderson Lemos"
+  name="Dev Files"

@@ -8,7 +8,6 @@ draft: false
 >
 >*Eli Pariser*
 
-
 Olá pessoas!
 
  Sou *Anderson Lemos*, moro no Brasil, tenho 35 anos e sou desenvolvedor de software desde 2007.
