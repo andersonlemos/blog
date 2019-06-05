@@ -67,12 +67,13 @@ Agora sim daremos prosseguimento a instalação do *HUGO*.
 
 Clonaremos o repósitorio do projeto no *Github* com a última versão dos pacotes.
 
-
-		mkdir $HOME/src
-		cd $HOME/src
-		git clone https://github.com/gohugoio/hugo.git
-		cd hugo
-		go install --tags extended
+````
+mkdir $HOME/src
+cd $HOME/src
+git clone https://github.com/gohugoio/hugo.git
+cd hugo
+go install --tags extended
+```
 
 Remova `--tags extended` se você não precisa do suporte a *Sass/SCSS*.
 
