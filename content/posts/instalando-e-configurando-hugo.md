@@ -67,7 +67,7 @@ Agora sim daremos prosseguimento a instalação do *HUGO*.
 
 Clonaremos o repósitorio do projeto no *Github* com a última versão dos pacotes.
 
-````
+```
 mkdir $HOME/src
 cd $HOME/src
 git clone https://github.com/gohugoio/hugo.git
@@ -79,10 +79,10 @@ Remova `--tags extended` se você não precisa do suporte a *Sass/SCSS*.
 
 Verifique a instalação
 
-````
+```
 $hugo version
 Hugo Static Site Generator v0.55.5-A83256B9 linux/amd64 BuildDate: 2019-05-	02T13:04:07Z
-````
+```
 
 Tarefa finalizada!
 
