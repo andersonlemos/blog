@@ -3,7 +3,7 @@ languageCode = "pt-br"
 title = "Dev Files"
 theme = "tale"
 googleAnalitycs = "UA-141576028-1"
-disqusShortname = "alemos_83"
+disqusShortname = "alemos-dev"
 preserveTaxonomyNames = true
 enableEmoji = true
 
