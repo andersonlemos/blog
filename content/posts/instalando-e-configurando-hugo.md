@@ -1,9 +1,9 @@
 ---
 title: "Instalando e configurando HUGO"
-date: 2019-05-31T16:29:31-03:00
+date: 2019-06-06T11:14:39-03:00
 author: "Anderson Lemos"
 slug: "instalando-e-configurando-hugo"
-draft: true
+draft: false
 ---
 
 ## Quem é esse tal de HUGO?
@@ -96,3 +96,6 @@ Por hoje é só. Da próxima vez mostro como criar um projeto básico.
 Disponível em: <https://golang.org/doc/install>*
 
 *HUGO: Install Hugo, 2019. Página inicial.Disponível em: <https://gohugo.io/getting-started/installing/>*
+
+*TechAdmin*.*net:How to Install Go on Linuxmint, 2019. Página inicial.
+Disponível em: <https://tecadmin.net/install-go-on-linuxmint/>*

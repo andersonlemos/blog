@@ -1,7 +1,12 @@
+baseURL = "/"
 languageCode = "pt-br"
-baseURL = ""
 title = "Dev Files"
 theme = "tale"
+googleAnalitycs = "UA-141576028-1"
+preserveTaxonomyNames = true
+enableEmoji = true
 
 [Author]
   name="Dev Files"
+
+  
