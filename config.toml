@@ -10,4 +10,6 @@ enableEmoji = true
 [Author]
   name="Dev Files"
 
-  
+[taxonomies]
+  category = "categorias"
+ 

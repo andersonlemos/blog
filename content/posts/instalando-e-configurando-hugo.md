@@ -4,6 +4,7 @@ date: 2019-06-06T11:14:39-03:00
 author: "Anderson Lemos"
 slug: "instalando-e-configurando-hugo"
 draft: false
+categories: ["hugo","linux","go","Como instalar"]
 ---
 
 ## Quem é esse tal de HUGO?

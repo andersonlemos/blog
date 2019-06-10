@@ -1,9 +1,9 @@
 ---
 title: "Criando Um Novo Site Com Hugo"
-date: 2019-06-09T12:47:26-03:00
+date: 2019-06-10T09:28:31-03:00
 author: "Anderson Lemos"
 slug: "criando-novo-site-com-hugo"
-draft: true
+draft: false
 ---
 
 # Criando um novo site com Hugo
