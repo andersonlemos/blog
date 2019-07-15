@@ -5,11 +5,11 @@
   
     {{ partial "single/post-info.html" . }}
     {{ partial "single/title.html" . }}
-
+   
     {{ partial "single/header.html" . }}
-
-    {{ .Content }}
     
+    {{ .Content }}
+    {{ partial "audima.html" .}}
     {{ partial "disqus.html" . }}
     {{ partial "single/footer.html" . }}
   </div>

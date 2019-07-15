@@ -8,22 +8,18 @@ draft: false
 
 # Criando um novo site com Hugo
 
-![HUGO](https://d33wubrfki0l68.cloudfront.net/30790d6888bd8af863fb2b5c33a7f337cdbda243/4e867/images/hugo-logo-wide.svg)
-
-
-
+![Logo HUGO](https://d33wubrfki0l68.cloudfront.net/30790d6888bd8af863fb2b5c33a7f337cdbda243/4e867/images/hugo-logo-wide.svg)
 
 Como prometido na última postagem, volto para mostrar a criação de um projeto básico com Hugo.
-
-
 
 A sintaxe para criação de um novo site é:
 
 ```
-$hugo new site [path] [flags]
+hugo new site [path] [flags]
 ```
 
 Onde *path* é o caminho para criação do novo projeto e *flags* são as opções de criação.
+Exemplo:
 
 ```
     --force                   inicializa em um diretório existente
@@ -31,36 +27,43 @@ Onde *path* é o caminho para criação do novo projeto e *flags* são as opçõ
 -h, --help                    ajuda para o site
 ```
 
-No nosso caso seguiremos o tutorial de introdução do [site do projeto](https://gohugo.io):
+No nosso caso seguiremos o tutorial de introdução do site do projeto - (https://gohugo.io) :
 
 ```
-$hugo new site quickstart	 // Onde quickstart é o nome do projeto a ser criado
+hugo new site quickstart (Onde quickstart é o nome do projeto a ser criado).
 ```
 
-O próximo passo é adicionar um tema ao projeto criado. Escolha um em [themes.gohugo.io](https://themes.gohugo.io/) e fique atento a versão mínima suportada por cada um.
+O próximo passo é adicionar um tema ao projeto criado. Escolha um em themes.gohugo.io - (https://themes.gohugo.io/) - e fique atento a versão mínima suportada por cada um.
+
+Abra o terminal e digite:
 
 ```
-$cd quickstart
-$git init
-$git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+cd quickstart
+git init
+git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
 ```
-Edite o arquivo config.toml na pasta raiz do projeto *quickstart*  criado e inclua:
+
+Agora edite o arquivo config.toml na pasta raiz do projeto *quickstart*  criado e inclua a seguinte linha:
 
 ```
-theme = "ananke"  // Tema instalado e que será usado no projeto
+theme = "ananke"  (Onde Ananke é o nome do tema usado no projeto).
 ```
 
 Com o tema instalado, vamos agora incluir uma postagem de teste.
 
 ```
-$hugo new posts/primeira-postagem.md
+hugo new posts/primeira-postagem.md
 ```
 
 Inicie o servidor HUGO  habilitando a visualização das postagens marcadas como rascunho *Drafts*:
 
 ```
-$hugo server -D
+hugo server -D
+```
 
+A saída do comando deve algo parecido com:
+
+```
                    | EN
 +------------------+----+
   Pages            | 10
