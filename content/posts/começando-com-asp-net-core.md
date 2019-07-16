@@ -1,0 +1,68 @@
+---
+title: Começando com ASP.NET Core.
+date: '2019-07-16T10:00:13-03:00'
+autoThumbnailImage: false
+thumbnailImagePosition: left
+thumbnailImage: /images/uploads/aspnetcore.png
+coverImage: ''
+---
+# Começando com ASP.NET Core.
+
+![Logotipo do ASP.NET Core](/images/uploads/aspnetcore.png)
+
+## O que é ASP.NET Core ?
+
+O desenvolvimento do ASP.NET Core foi motivado pelo desejo de criar um framework web
+
+com quatro objetivos principais:
+
+* Ser executado e desenvolvido em _cross-platform.
+  _
+* Ter uma arquitetura modular facilitando a manutenção.
+* Ser _Open Source.
+  _
+* Ser aplicável às tendências atuais no desenvolvimento _web _como  _client-side applications_ e _cloud deploy _.
+
+Para alcançar todos esses objetivos, a _Microsoft _precisava de uma plataforma que pudesse fornecer
+
+bibliotecas subjacentes para criar objetos básicos, como listas e dicionários, e executar, por exemplo, operações de arquivo simples.
+
+Até este ponto, o desenvolvimento do _ASP.NET_ era focado e dependente do _.NET Framework _somente em _Windows_. Para _ASP.NET Core_, a _Microsoft _criou uma plataforma leve que roda no _Windows_, _Linux _e _macOS _chamada ._NET Core._
+
+O _.NET Core_ compartilha muitas das mesmas APIs do _.NET Framework_, mas é menor e
+
+atualmente implementa apenas um subconjunto dos recursos que o _.NET Framework_ fornece, com o
+
+objetivo de obter um modelo de implementação e programação mais simples. 
+
+Com o _.NET Core_ somente, é possível criar aplicativos de console  _cross-platform_
+
+de modo que a conversão  para um aplicativo da Web envolve  somente a adição de bibliotecas, como mostra a figura abaixo.
+
+![ASP.NET Core Application Model](/images/uploads/net-core-application-model.jpg)
+
+Chega de enrolação e vamos a instalação.
+
+**Pré-Requisitos**:
+
+* [SDK do NET Core 2.2](https://www.microsoft.com/net/download/all) - Disponível em <https://www.microsoft.com/net/download/all>.
+
+Siga as instrulçoes para a plataforma de sua preferência.
+
+Após a instalação vamos a criação de um simples projeto do tipo _Console Application_.
+
+Agora abra o console e digite:
+
+```
+dotnet new console -o helloWorldApp
+```
+
+Esse comando cria o projeto _helloWorldApp_, na pasta desejada.
+
+Por fim, digite:
+
+```
+dotnet run
+```
+
+E execute o projeto criado.
