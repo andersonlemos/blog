@@ -2,9 +2,3 @@
 	path = themes/tale
 	url = https://github.com/EmielH/tale-hugo.git
 
-[submodule "themes/alageek"]
-	path = themes/alageek
-	url = https://github.com/gkmngrgn/hugo-alageek-theme
-[submodule "static/admin"]
-	path = static/admin
-	url = https://github.com/woliveiras/netlify-cms-base.git
