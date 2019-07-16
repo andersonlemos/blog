@@ -76,6 +76,6 @@ Ficou muito mais fácil criar aplicativos  para múltiplas plataformas com essa 
 
 _Referências_ :
 
-_ASP.NET: ASP.NET Free. Cross-platform. Open source.Disponível em: [https://dotnet.microsoft.com/apps/aspnet](https://dotnet.microsoft.com/apps/aspnet)_
+_ASP.NET: ASP.NET Free, Cross-platform, Open source.Disponível em: [https://dotnet.microsoft.com/apps/aspnet](https://dotnet.microsoft.com/apps/aspnet)_
 
 _ASP.NET Core In Action, Andrew Lock_: _Disponível em: [https://www.manning.com/books/asp-net-core-in-action](https://www.manning.com/books/asp-net-core-in-action)_
