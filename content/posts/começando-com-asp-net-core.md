@@ -1,8 +1,8 @@
 ---
 title: Começando com ASP.NET Core.
 date: '2019-07-16T10:00:13-03:00'
-autoThumbnailImage: false
-thumbnailImagePosition: left
+autoThumbnailImage: true
+thumbnailImagePosition: top
 thumbnailImage: /images/uploads/aspnetcore.png
 coverImage: ''
 ---
