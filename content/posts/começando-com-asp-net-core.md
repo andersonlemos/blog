@@ -11,8 +11,6 @@ thumbnailImagePosition: top
 thumbnailImage: ''
 coverImage: ''
 ---
-# Começando com ASP.NET Core.
-
 ![Logotipo do ASP.NET Core](/images/uploads/aspnetcore.png)
 
 ## O que é ASP.NET Core ?
@@ -69,4 +67,4 @@ Ficou muito mais fácil criar aplicativos  para múltiplas plataformas com essa 
 
 _Referências:ASP.NET:ASP.NET Free, Cross-platform. Open source. Disponível em: <https://dotnet.microsoft.com/apps/aspnet>_
 
-_ASP.NET Core In Action, Andrew Lock: Disponível em: [https://www.manning.com/books/asp-net-core-in-action](https://www.manning.com/books/asp-net-core-in-action)_
+_ASP.NET Core In Action, Andrew Lock: Disponível em: <https://www.manning.com/books/asp-net-core-in-action>_
