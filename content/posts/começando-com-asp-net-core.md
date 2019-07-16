@@ -6,13 +6,11 @@ categories:
   - Como Instalar
 tags:
   - ''
-autoThumbnailImage: true
+autoThumbnailImage: false
 thumbnailImagePosition: top
-thumbnailImage: /images/uploads/aspnetcore.png
+thumbnailImage: ''
 coverImage: ''
 ---
-# Começando com ASP.NET Core.
-
 ![Logotipo do ASP.NET Core](/images/uploads/aspnetcore.png)
 
 ## O que é ASP.NET Core ?
