@@ -21,13 +21,13 @@ com quatro objetivos principais:
 * Ter uma arquitetura modular facilitando a manutenção.
 * Ser _Open Source.
   _
-* Ser aplicável às tendências atuais no desenvolvimento _web _como  _client-side applications_ e _cloud deploy _.
+* Ser aplicável às tendências atuais no desenvolvimento _web_ como  _client-side applications_ e _cloud deploy_.
 
-Para alcançar todos esses objetivos, a _Microsoft _precisava de uma plataforma que pudesse fornecer
+Para alcançar todos esses objetivos, a _Microsoft_ precisava de uma plataforma que pudesse fornecer
 
 bibliotecas subjacentes para criar objetos básicos, como listas e dicionários, e executar, por exemplo, operações de arquivo simples.
 
-Até este ponto, o desenvolvimento do _ASP.NET_ era focado e dependente do _.NET Framework _somente em _Windows_. Para _ASP.NET Core_, a _Microsoft _criou uma plataforma leve que roda no _Windows_, _Linux _e _macOS _chamada ._NET Core._
+Até este ponto, o desenvolvimento do _ASP.NET_ era focado e dependente do _.NET Framework_ somente em _Windows_. Para _ASP.NET Core_, a _Microsoft_ criou uma plataforma leve que roda no _Windows_, _Linux_ e _macOS_ chamada ._NET Core_ .
 
 O _.NET Core_ compartilha muitas das mesmas APIs do _.NET Framework_, mas é menor e
 
@@ -71,10 +71,11 @@ A saída do console deve ser parecida com:
 
 Ficou muito mais fácil criar aplicativos  para múltiplas plataformas com essa nova tecnologia da _Microsoft. _
 
+_Referências:
+_
 
+_
+ASP.NET: ASP.NET
+ Free. Cross-platform. Open source.Disponível em: _[_https://dotnet.microsoft.com/apps/aspnet_](https://dotnet.microsoft.com/apps/aspnet)
 
-_Referências:_
-
-_ASP.NET: ASP.NET Free. Cross-platform. Open source.Disponível em: _[_https://dotnet.microsoft.com/apps/aspnet_](https://dotnet.microsoft.com/apps/aspnet)
-
-ASP.NET Core In Action, Andrew Lock: _Disponível em: https://themes.gohugo.io/_
+_ASP.NET Core In Action, Andrew Lock_: _Disponível em:_[_ https://www.manning.com/books/asp-net-core-in-action_](https://www.manning.com/books/asp-net-core-in-action)
