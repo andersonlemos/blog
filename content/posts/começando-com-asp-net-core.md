@@ -11,8 +11,6 @@ thumbnailImagePosition: top
 thumbnailImage: /images/uploads/aspnetcore.png
 coverImage: ''
 ---
-# Começando com ASP.NET Core.
-
 ![Logotipo do ASP.NET Core](/images/uploads/aspnetcore.png)
 
 ## O que é ASP.NET Core ?
@@ -74,13 +72,11 @@ A saída do console deve ser parecida com:
 
 ![Saída do comando dotnet run da aplicação console apresenta a string "Hello World!" como saída.](/images/uploads/saidaterminal.jpg)
 
-Ficou muito mais fácil criar aplicativos  para múltiplas plataformas com essa nova tecnologia da _Microsoft. _
+Ficou muito mais fácil criar aplicativos  para múltiplas plataformas com essa nova tecnologia da _Microsoft._
 
-_Referências:
-_
+_Referências:_
 
-_
-ASP.NET: ASP.NET
+_ASP.NET: ASP.NET
  Free. Cross-platform. Open source.Disponível em: _[_https://dotnet.microsoft.com/apps/aspnet_](https://dotnet.microsoft.com/apps/aspnet)
 
 _ASP.NET Core In Action, Andrew Lock_: _Disponível em:_[_ https://www.manning.com/books/asp-net-core-in-action_](https://www.manning.com/books/asp-net-core-in-action)
