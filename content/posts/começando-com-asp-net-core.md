@@ -59,10 +59,22 @@ dotnet new console -o helloWorldApp
 
 Esse comando cria o projeto _helloWorldApp_, na pasta desejada.
 
-Por fim, digite:
+Por fim, execute o projeto criado com:
 
 ```
 dotnet run
 ```
 
-E execute o projeto criado.
+A saída do console deve ser parecida com:
+
+![Saída do comando dotnet run da aplicação console apresenta a string "Hello World!" como saída.](/images/uploads/saidaterminal.jpg)
+
+Ficou muito mais fácil criar aplicativos  para múltiplas plataformas com essa nova tecnologia da _Microsoft. _
+
+
+
+_Referências:_
+
+_ASP.NET: ASP.NET Free. Cross-platform. Open source.Disponível em: _[_https://dotnet.microsoft.com/apps/aspnet_](https://dotnet.microsoft.com/apps/aspnet)
+
+ASP.NET Core In Action, Andrew Lock: _Disponível em: https://themes.gohugo.io/_
