@@ -6,6 +6,7 @@ categories:
   - linux
   - go
   - Como instalar
+autoThumbnailImage: true
 ---
 ## Quem é esse tal de HUGO?
 
@@ -13,11 +14,7 @@ categories:
 
 De acordo com o site oficial (https://gohugo.io) do projeto:
 
-
-
 > _"Hugo é um dos mais populares geradores de sites estáticos de código aberto. Com sua incrível velocidade e flexibilidade, Hugo torna a construção de sites mais divertidos novamente."_
-
-
 
 Alguns dos seus benefícios são:
 
@@ -101,6 +98,8 @@ Hugo Static Site Generator v0.55.5-A83256B9 linux/amd64 BuildDate: 2019-05-	02T1
 Tarefa finalizada!
 
 Por hoje é só. Da próxima vez mostro como criar um projeto básico. 
+
+
 
 _Referências:_
 
