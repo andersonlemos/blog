@@ -30,7 +30,7 @@ Para alcançar todos esses objetivos, a _Microsoft_ precisava de uma plataforma 
 
 Até este ponto, o desenvolvimento do _ASP.NET_ era focado e dependente do _NET Framework_ somente em _Windows_. Para _ASP.NET Core_, a _Microsoft_ criou uma plataforma leve que roda no _Windows_, _Linux_ e _macOS_ chamada ._NET Core_ .
 
-O _.NET Core_ compartilha muitas das mesmas APIs do _NET Framework_, mas é menor e atualmente implementa apenas um subconjunto dos recursos que o _NET Framework_ fornece, com o objetivo de obter um modelo de implementação e programação mais simples. 
+O _NET Core_ compartilha muitas das mesmas APIs do _NET Framework_, mas é menor e atualmente implementa apenas um subconjunto dos recursos que o _NET Framework_ fornece, com o objetivo de obter um modelo de implementação e programação mais simples. 
 
 Com o _NET Core_ somente, é possível criar aplicativos de console  _cross-platform_
 de modo que a conversão  para um aplicativo da Web envolve  somente a adição de bibliotecas, como mostra a figura abaixo.
