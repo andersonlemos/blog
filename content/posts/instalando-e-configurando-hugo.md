@@ -1,26 +1,27 @@
 ---
-title: "Instalando e configurando HUGO"
-date: 2019-06-06T11:14:39-03:00
-author: "Anderson Lemos"
-slug: "instalando-e-configurando-hugo"
-draft: false
-categories: ["hugo","linux","go","Como instalar"]
+title: Instalando e configurando HUGO
+date: 2019-06-06T14:14:39.000Z
+categories:
+  - hugo
+  - linux
+  - go
+  - Como instalar
+autoThumbnailImage: true
 ---
-
 ## Quem é esse tal de HUGO?
 
 ![Logo HUGO](https://d33wubrfki0l68.cloudfront.net/30790d6888bd8af863fb2b5c33a7f337cdbda243/4e867/images/hugo-logo-wide.svg)
 
 De acordo com o site oficial (https://gohugo.io) do projeto:
 
-> *"Hugo é um dos mais populares geradores de sites estáticos de código aberto. Com sua incrível velocidade e flexibilidade, Hugo torna a construção de sites mais divertidos novamente."*
+> _"Hugo é um dos mais populares geradores de sites estáticos de código aberto. Com sua incrível velocidade e flexibilidade, Hugo torna a construção de sites mais divertidos novamente."_
 
 Alguns dos seus benefícios são:
 
-* Tempo de construção *(build)* extremamente baixo (<1 ms por página).
+* Tempo de construção _(build)_ extremamente baixo (<1 ms por página).
 * Multiplataforma.
-* Suporte nativo a *Markdown* - (https://www.markdownguide.org/basic-syntax/).
-* Suporte integrado ao *Google Analytics*.
+* Suporte nativo a _Markdown_ - (https://www.markdownguide.org/basic-syntax/).
+* Suporte integrado ao _Google Analytics_.
 
 Pré requisitos de instalação:
 
@@ -33,31 +34,30 @@ Começarei com a instalação de Go, já que utilizo Linux Mint 18 - Sarah (http
 
 Abra o terminal e atualize seu sistema.
 
-````
+```
 sudo apt-get update -y 
-````
+```
 
 Agora, baixe os binários para sua versão no site oficial (https://golang.org/dl/).
 
-````
+```
 wget https://dl.google.com/go/go1.12.5.linux-amd64.tar.gz 
-````
+```
 
-Descompacte o arquivo baixado e instale no local de sua preferência. No meu caso escolhi o diretório */usr/local* .
+Descompacte o arquivo baixado e instale no local de sua preferência. No meu caso escolhi o diretório _/usr/local_ .
 
-````
+```
 tar -xvf go1.12.5.linux-amd64.tar.g
 mv go /usr/local
-````
+```
 
-Adicione */usr/local/go/bin* à variável de ambiente **PATH**. 
+Adicione _/usr/local/go/bin_ à variável de ambiente **PATH**. 
 
-````
+```
 export PATH=$PATH:/usr/local/go/bin
-````
+```
 
 E por fim teste se está tudo certo com a instalação
-
 
 ```
 go version
@@ -69,9 +69,9 @@ A saída do comando deve ser algo parecido com:
 go version go1.12.5 linux/amd64
 ```
 
-Agora sim daremos prosseguimento a instalação do *HUGO*.
+Agora sim daremos prosseguimento a instalação do _HUGO_.
 
-Clonaremos o repósitorio do projeto no *Github* com a última versão dos pacotes.
+Clonaremos o repósitorio do projeto no _Github_ com a última versão dos pacotes.
 
 ```
 mkdir $HOME/src
@@ -81,7 +81,7 @@ cd hugo
 go install --tags extended
 ```
 
-Remova `--tags extended` se você não precisa do suporte a *Sass/SCSS*.
+Remova `--tags extended` se você não precisa do suporte a _Sass/SCSS_.
 
 Verifique a instalação digitando:
 
@@ -101,12 +101,12 @@ Por hoje é só. Da próxima vez mostro como criar um projeto básico.
 
 
 
-*Referências:*
+_Referências:_
 
-*The Go Programming Language: Install the Go tools, 2019. Página inicial.
-Disponível em: <https://golang.org/doc/install>* .
+_The Go Programming Language: Install the Go tools, 2019. Página inicial.
+Disponível em: <https://golang.org/doc/install>_ .
 
-*HUGO: Install Hugo, 2019. Página inicial.Disponível em: <https://gohugo.io/getting-started/installing/>* .
+_HUGO: Install Hugo, 2019. Página inicial.Disponível em: <https://gohugo.io/getting-started/installing/>_ .
 
-*TechAdmin*.*net:How to Install Go on Linuxmint, 2019. Página inicial.
-Disponível em: <https://tecadmin.net/install-go-on-linuxmint/>* .
+_TechAdmin_._net:How to Install Go on Linuxmint, 2019. Página inicial.
+Disponível em: <https://tecadmin.net/install-go-on-linuxmint/>_ .
