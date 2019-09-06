@@ -16,7 +16,13 @@ autoThumbnailImage: false
 thumbnailImagePosition: top
 coverImage: /images/uploads/virtualbox.jpg
 ---
-Esses dias estive com um problema para resolver no trabalho. Comecei alguns estudos de Flutter para desenvolvimento de _apps_ e precisei instalar o _VirtualBox_. Foi aí que descobri que ele (_VirtualBox_) não funciona em sistemas Windows com o _Hyper-V_ ativo.  E agora? O que fazer?
+Alguns dias atrás, comecei os estudos de _Flutter_ para desenvolvimento de _apps_ e precisei instalar o _Genymotion_. Até aí beleza!
+
+Instalei o _Genymotion_ e _VirtualBox_, baixei as imagens e na hora de executar a máquina virtual...
+
+Nada!!!
+
+Foram várias horas tentando inúmeras soluções até que descobri que o _VirtualBox_ não funciona em sistemas _Windows_ com o _Hyper-V_ ativo.  E agora? O que fazer?
 
 Depois de algumas horas pesquisando encontrei os motivos. 
 
@@ -34,11 +40,11 @@ Seguindo esse conceito, existem 2 tipos de _Hypervisors_:
 
 Os _Hypervisors tipo 1_, os chamados _bare-metal_, interagem diretamente com o hardware do computador, sendo independentes do host.
 
-Os _Hypervisors  tipo 2_, são dependentes do host e dos serviços de virtualização, fornecidos pelo sistema operacional. 
+Os _Hypervisors  tipo 2_, são dependentes do host e dos serviços de virtualização fornecidos pelo sistema operacional. 
 
-Somente um tipo de _Hypervisor_ pode ter o controle das instruções _VT-x_ do processador, por vez e por isso não é possível o uso do _VirtualBox_ com o _Hyper-V_ ativo.
+Somente um tipo de _Hypervisor_ pode ter o controle das instruções _VT-x_ do processador por vez e por isso não é possível o uso do _VirtualBox_ com o _Hyper-V_ ao mesmo tempo.
 
-Essas solução permitirá o uso do _Hyper-V_ e _VMWare_ ou _VirtualBox_ na mesma máquina, mas não simultaneamente.  Será necessário reiniciar o computador enquanto alterna  entre os virtualizadores.
+Essas solução permitirá o uso do _Hyper-V_ e _VMWare_ ou _VirtualBox_ na mesma máquina, mas não simultaneamente. Será necessário reiniciar o computador para alternar entre os virtualizadores.
 
 ## Passo-a-Passo
 
