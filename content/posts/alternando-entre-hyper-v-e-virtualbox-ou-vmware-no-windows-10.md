@@ -56,7 +56,7 @@ Usaremos o **_bcdedit.exe_** para criar uma nova entrada de boot com o _Hyper-V_
 C:\>bcdedit /copy {current} /d “Hyper-V Desabilitado”
 ```
 
-Você pode usar aqui sua própria descrição ao invés de ** "Hyper-V desabilitado"**. 
+Você pode usar aqui sua própria descrição ao invés de **"Hyper-V desabilitado"**. 
 
 Logo após a execução verá a seguinte saída na tela:
 
