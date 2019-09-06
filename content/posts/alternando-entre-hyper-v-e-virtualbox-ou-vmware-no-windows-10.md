@@ -2,7 +2,7 @@
 title: Alternando entre Hyper-V e VirtualBox ou VMware no Windows 10
 date: '2019-09-06T09:37:25-03:00'
 categories:
-  - Virtualizaçã
+  - Virtualização
 tags:
   - Virtualização
   - VirtualBox
@@ -42,7 +42,7 @@ Essas solução permitirá o uso do _Hyper-V_ e _VMWare_ ou _VirtualBox_ na mesm
 
 ## Passo-a-Passo
 
-Usaremos o _**bcdedit.exe**_ para criar uma nova entrada de boot com o _Hyper-V_ desativado.
+Usaremos o **_bcdedit.exe_** para criar uma nova entrada de boot com o _Hyper-V_ desativado.
 
 **Passo 1:** Abra o prompt de comando como administrador. **(Use o CMD pois esses comandos não funcionam no Powershell)**
 
@@ -72,6 +72,16 @@ Você verá a mensagem:
 The operation completed successfully.
 ```
 
-**Passo 4: ** Reinicie o computador enquanto segura a tecla _Shift_. Aparecerá uma tela com a opção de inicialização para _**"Use another operation system"**_.  Selecione a nova entrada _**"Hyper-V Desabilitado"**_ e aguarde a inicialização do Windows com o _Hyper-V_ desabilitado e o _VirtualBox_ funcionando.
+**Passo 4: ** Reinicie o computador enquanto segura a tecla _Shift_. Aparecerá uma tela com a opção de inicialização para **_"Use another operation system"_**.  Selecione a nova entrada **_"Hyper-V Desabilitado"_** e aguarde a inicialização do Windows com o _Hyper-V_ desabilitado e o _VirtualBox_ funcionando.
 
 ![Escolher outro sistema operacional.](/images/uploads/use-another-operating-system.jpg)
+
+Até a próxima.
+
+_Referências:_
+
+_SAT Research Forge: Enabling Hyper-V and VirtualBox on the same system.Disponível em: _[_https://forge.sat.iit.edu/software/virtualization/2019/01/11/Enable-Hyper-V-and-VirtualBox-on-the-same-system.html_](https://forge.sat.iit.edu/software/virtualization/2019/01/11/Enable-Hyper-V-and-VirtualBox-on-the-same-system.html)
+
+_VapourApps: What is Hypervisor and what types of hypervisors are there.Disponível em: _[_https://vapour-apps.com/what-is-hypervisor/_](https://vapour-apps.com/what-is-hypervisor/)
+
+_Microsoft: What is Virtualization.Disponível em: _[_https://azure.microsoft.com/en-us/overview/what-is-virtualization/ _](https://azure.microsoft.com/en-us/overview/what-is-virtualization/)
