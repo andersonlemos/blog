@@ -24,8 +24,6 @@ Nada!!!
 
 Foram várias horas tentando inúmeras soluções até que descobri que o _VirtualBox_ não funciona em sistemas _Windows_ com o _Hyper-V_ ativo.  E agora? O que fazer?
 
-Depois de algumas horas pesquisando encontrei os motivos. 
-
 De acordo com o site da _Microsoft _: 
 
 > "_A virtualização cria um ambiente de computação simulado ou virtual em vez de um ambiente físico. A virtualização costuma incluir versões de hardware, sistemas operacionais, dispositivos de armazenamento e outros, todas geradas por computador. Isso permite que as organizações particionem um único computador físico ou servidor em diversas máquinas virtuais. Cada máquina virtual pode interagir de forma independente e executar diferentes sistemas operacionais ou aplicativos ao mesmo tempo em que todas compartilham os recursos de um único computador host."_
@@ -48,7 +46,7 @@ A solução apresentada permitirá o uso do _Hyper-V_ e _VMWare_ ou _VirtualBox_
 
 ## Passo-a-Passo
 
-Usaremos o _**bcdedit.exe**_ para criar uma nova entrada de boot com o _Hyper-V_ desativado.
+Usaremos o **_bcdedit.exe_** para criar uma nova entrada de boot com o _Hyper-V_ desativado.
 
 **Passo 1:** Abra o prompt de comando como administrador. **(Use o CMD pois esses comandos não funcionam no Powershell)**
 
@@ -78,7 +76,7 @@ Você verá a mensagem:
 The operation completed successfully.
 ```
 
-**Passo 4: ** Reinicie o computador enquanto segura a tecla _Shift_. Aparecerá uma tela com a opção de inicialização para _**"Use another operation system"**_.  Selecione a nova entrada _**"Hyper-V Desabilitado"**_ e aguarde a inicialização do Windows com o _Hyper-V_ desabilitado e o _VirtualBox_ funcionando.
+**Passo 4: ** Reinicie o computador enquanto segura a tecla _Shift_. Aparecerá uma tela com a opção de inicialização para **_"Use another operation system"_**.  Selecione a nova entrada **_"Hyper-V Desabilitado"_** e aguarde a inicialização do Windows com o _Hyper-V_ desabilitado e o _VirtualBox_ funcionando.
 
 ![Escolher outro sistema operacional.](/images/uploads/use-another-operating-system.jpg)
 
