@@ -56,7 +56,7 @@ Usaremos o **_bcdedit.exe_** para criar uma nova entrada de boot com o _Hyper-V_
 C:\>bcdedit /copy {current} /d “Hyper-V Desabilitado”
 ```
 
-Você pode usar aqui sua própria descrição ao invés de **Hyper-V desabilitado**. 
+Você pode usar aqui sua própria descrição ao invés de ** "Hyper-V desabilitado"**. 
 
 Logo após a execução verá a seguinte saída na tela:
 
@@ -76,7 +76,7 @@ Você verá a mensagem:
 The operation completed successfully.
 ```
 
-**Passo 4: ** Reinicie o computador enquanto segura a tecla _Shift_. Aparecerá uma tela com a opção de inicialização para **_"Use another operation system"_**.  Selecione a nova entrada **_"Hyper-V Desabilitado"_** e aguarde a inicialização do Windows com o _Hyper-V_ desabilitado e o _VirtualBox_ funcionando.
+**Passo 4:** Reinicie o computador enquanto segura a tecla _Shift_. Aparecerá uma tela com a opção de inicialização para **_"Use another operation system"_**.  Selecione a nova entrada **_"Hyper-V Desabilitado"_** e aguarde a inicialização do Windows com o _Hyper-V_ desabilitado e o _VirtualBox_ funcionando.
 
 ![Escolher outro sistema operacional.](/images/uploads/use-another-operating-system.jpg)
 
@@ -86,8 +86,8 @@ Até a próxima.
 
 _Referências:_
 
-_SAT Research Forge: Enabling Hyper-V and VirtualBox on the same system.Disponível em:_ [_https://forge.sat.iit.edu/software/virtualization/2019/01/11/Enable-Hyper-V-and-VirtualBox-on-the-same-system.html_](https://forge.sat.iit.edu/software/virtualization/2019/01/11/Enable-Hyper-V-and-VirtualBox-on-the-same-system.html)
+_SAT Research Forge: Enabling Hyper-V and VirtualBox on the same system.Disponível em: _[_https://forge.sat.iit.edu/software/virtualization/2019/01/11/Enable-Hyper-V-and-VirtualBox-on-the-same-system.html_](https://forge.sat.iit.edu/software/virtualization/2019/01/11/Enable-Hyper-V-and-VirtualBox-on-the-same-system.html)
 
-_VapourApps: What is Hypervisor and what types of hypervisors are there.Disponível em:_ [_https://vapour-apps.com/what-is-hypervisor/_](https://vapour-apps.com/what-is-hypervisor/)
+_VapourApps: What is Hypervisor and what types of hypervisors are there.Disponível em: _[_https://vapour-apps.com/what-is-hypervisor/_](https://vapour-apps.com/what-is-hypervisor/)
 
-_Microsoft: What is Virtualization.Disponível em:_ [_https://azure.microsoft.com/en-us/overview/what-is-virtualization/_](https://azure.microsoft.com/en-us/overview/what-is-virtualization/)
+_Microsoft: What is Virtualization.Disponível em: _[_https://azure.microsoft.com/en-us/overview/what-is-virtualization/ _](https://azure.microsoft.com/en-us/overview/what-is-virtualization/)
