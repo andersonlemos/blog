@@ -76,6 +76,8 @@ The operation completed successfully.
 
 ![Escolher outro sistema operacional.](/images/uploads/use-another-operating-system.jpg)
 
+Depois disso consegui rodar o _Genymotion _tranquilamente. :)
+
 Até a próxima.
 
 _Referências:_
