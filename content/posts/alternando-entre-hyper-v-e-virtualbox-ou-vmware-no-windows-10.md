@@ -24,7 +24,7 @@ Nada!!!
 
 Foram várias horas tentando inúmeras soluções até que descobri que o _VirtualBox_ não funciona em sistemas _Windows_ com o _Hyper-V_ ativo.  E agora? O que fazer?
 
-De acordo com o site da _Microsoft _: 
+De acordo com o site da _Microsoft_: 
 
 > "_A virtualização cria um ambiente de computação simulado ou virtual em vez de um ambiente físico. A virtualização costuma incluir versões de hardware, sistemas operacionais, dispositivos de armazenamento e outros, todas geradas por computador. Isso permite que as organizações particionem um único computador físico ou servidor em diversas máquinas virtuais. Cada máquina virtual pode interagir de forma independente e executar diferentes sistemas operacionais ou aplicativos ao mesmo tempo em que todas compartilham os recursos de um único computador host."_
 
