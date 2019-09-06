@@ -42,13 +42,13 @@ Os _Hypervisors tipo 1_, os chamados _bare-metal_, interagem diretamente com o h
 
 Os _Hypervisors  tipo 2_, são dependentes do host e dos serviços de virtualização fornecidos pelo sistema operacional. 
 
-Somente um tipo de _Hypervisor_ pode ter o controle das instruções _VT-x_ do processador por vez e por isso não é possível o uso do _VirtualBox_ com o _Hyper-V_ ao mesmo tempo.
+Somente um tipo de _Hypervisor_ pode ter o controle das instruções _VT-x_ do processador por vez e por isso não é possível o uso do _VirtualBox_ com o _Hyper-V_ ao simultaneamente.
 
-Essas solução permitirá o uso do _Hyper-V_ e _VMWare_ ou _VirtualBox_ na mesma máquina, mas não simultaneamente. Será necessário reiniciar o computador para alternar entre os virtualizadores.
+A solução apresentada permitirá o uso do _Hyper-V_ e _VMWare_ ou _VirtualBox_ na mesma máquina, mas não simultaneamente. Será necessário reiniciar o computador para alternar entre os virtualizadores.
 
 ## Passo-a-Passo
 
-Usaremos o **_bcdedit.exe_** para criar uma nova entrada de boot com o _Hyper-V_ desativado.
+Usaremos o _**bcdedit.exe**_ para criar uma nova entrada de boot com o _Hyper-V_ desativado.
 
 **Passo 1:** Abra o prompt de comando como administrador. **(Use o CMD pois esses comandos não funcionam no Powershell)**
 
@@ -78,11 +78,11 @@ Você verá a mensagem:
 The operation completed successfully.
 ```
 
-**Passo 4: ** Reinicie o computador enquanto segura a tecla _Shift_. Aparecerá uma tela com a opção de inicialização para **_"Use another operation system"_**.  Selecione a nova entrada **_"Hyper-V Desabilitado"_** e aguarde a inicialização do Windows com o _Hyper-V_ desabilitado e o _VirtualBox_ funcionando.
+**Passo 4: ** Reinicie o computador enquanto segura a tecla _Shift_. Aparecerá uma tela com a opção de inicialização para _**"Use another operation system"**_.  Selecione a nova entrada _**"Hyper-V Desabilitado"**_ e aguarde a inicialização do Windows com o _Hyper-V_ desabilitado e o _VirtualBox_ funcionando.
 
 ![Escolher outro sistema operacional.](/images/uploads/use-another-operating-system.jpg)
 
-Depois disso consegui rodar o _Genymotion _tranquilamente. :)
+Após o procedimento, consegui executar a imagem configurada no _Genymotion_ tranquilamente. :)
 
 Até a próxima.
 
