@@ -56,7 +56,7 @@ Usaremos o _**bcdedit.exe**_ para criar uma nova entrada de boot com o _Hyper-V_
 C:\>bcdedit /copy {current} /d “Hyper-V Desabilitado”
 ```
 
-Você pode usar aqui sua própria descrição ao invés de ** "_Hyper-V desabilitado"_**. 
+Você pode usar aqui sua própria descrição ao invés de _**"Hyper-V desabilitado"**_. 
 
 Logo após a execução verá a seguinte saída na tela:
 
@@ -86,8 +86,8 @@ Até a próxima.
 
 _Referências:_
 
-_SAT Research Forge: Enabling Hyper-V and VirtualBox on the same system.Disponível em: _[_https://forge.sat.iit.edu/software/virtualization/2019/01/11/Enable-Hyper-V-and-VirtualBox-on-the-same-system.html_](https://forge.sat.iit.edu/software/virtualization/2019/01/11/Enable-Hyper-V-and-VirtualBox-on-the-same-system.html)
+_SAT Research Forge: Enabling Hyper-V and VirtualBox on the same system.Disponível em:_ [_https://forge.sat.iit.edu/software/virtualization/2019/01/11/Enable-Hyper-V-and-VirtualBox-on-the-same-system.html_](https://forge.sat.iit.edu/software/virtualization/2019/01/11/Enable-Hyper-V-and-VirtualBox-on-the-same-system.html)
 
-_VapourApps: What is Hypervisor and what types of hypervisors are there.Disponível em: _[_https://vapour-apps.com/what-is-hypervisor/_](https://vapour-apps.com/what-is-hypervisor/)
+_VapourApps: What is Hypervisor and what types of hypervisors are there.Disponível em:_ [_https://vapour-apps.com/what-is-hypervisor/_](https://vapour-apps.com/what-is-hypervisor/)
 
-_Microsoft: What is Virtualization.Disponível em: _[_https://azure.microsoft.com/en-us/overview/what-is-virtualization/ _](https://azure.microsoft.com/en-us/overview/what-is-virtualization/)
+_Microsoft: What is Virtualization.Disponível em:_ [_https://azure.microsoft.com/en-us/overview/what-is-virtualization/_](https://azure.microsoft.com/en-us/overview/what-is-virtualization/)
