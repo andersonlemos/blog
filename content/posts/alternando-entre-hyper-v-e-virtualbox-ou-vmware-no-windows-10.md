@@ -46,7 +46,7 @@ A solução apresentada permitirá o uso do _Hyper-V_ e _VMWare_ ou _VirtualBox_
 
 ## Passo-a-Passo
 
-Usaremos o **_bcdedit.exe_** para criar uma nova entrada de boot com o _Hyper-V_ desativado.
+Usaremos o _**bcdedit.exe**_ para criar uma nova entrada de boot com o _Hyper-V_ desativado.
 
 **Passo 1:** Abra o prompt de comando como administrador. **(Use o CMD pois esses comandos não funcionam no Powershell)**
 
@@ -56,7 +56,7 @@ Usaremos o **_bcdedit.exe_** para criar uma nova entrada de boot com o _Hyper-V_
 C:\>bcdedit /copy {current} /d “Hyper-V Desabilitado”
 ```
 
-Você pode usar aqui sua própria descrição ao invés de ** "Hyper-V desabilitado"**. 
+Você pode usar aqui sua própria descrição ao invés de ** "_Hyper-V desabilitado"_**. 
 
 Logo após a execução verá a seguinte saída na tela:
 
@@ -76,7 +76,7 @@ Você verá a mensagem:
 The operation completed successfully.
 ```
 
-**Passo 4:** Reinicie o computador enquanto segura a tecla _Shift_. Aparecerá uma tela com a opção de inicialização para **_"Use another operation system"_**.  Selecione a nova entrada **_"Hyper-V Desabilitado"_** e aguarde a inicialização do Windows com o _Hyper-V_ desabilitado e o _VirtualBox_ funcionando.
+**Passo 4:** Reinicie o computador enquanto segura a tecla _Shift_. Aparecerá uma tela com a opção de inicialização para _**"Use another operation system"**_.  Selecione a nova entrada _**"Hyper-V Desabilitado"**_ e aguarde a inicialização do Windows com o _Hyper-V_ desabilitado e o _VirtualBox_ funcionando.
 
 ![Escolher outro sistema operacional.](/images/uploads/use-another-operating-system.jpg)
 
