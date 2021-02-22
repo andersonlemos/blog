@@ -1,13 +1,7 @@
 ---
-title: "Criando Um Novo Site Com Hugo"
-date: 2019-06-10T09:28:31-03:00
-author: "Anderson Lemos"
-slug: "criando-novo-site-com-hugo"
-draft: false
+title: Criando Um Novo Site Com Hugo
+date: 2019-06-10T12:28:31.000Z
 ---
-
-# Criando um novo site com Hugo
-
 ![Logo HUGO](https://d33wubrfki0l68.cloudfront.net/30790d6888bd8af863fb2b5c33a7f337cdbda243/4e867/images/hugo-logo-wide.svg)
 
 Como prometido na última postagem, volto para mostrar a criação de um projeto básico com Hugo.
@@ -18,7 +12,7 @@ A sintaxe para criação de um novo site é:
 hugo new site [path] [flags]
 ```
 
-Onde *path* é o caminho para criação do novo projeto e *flags* são as opções de criação.
+Onde _path_ é o caminho para criação do novo projeto e _flags_ são as opções de criação.
 Exemplo:
 
 ```
@@ -43,7 +37,7 @@ git init
 git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
 ```
 
-Agora edite o arquivo config.toml na pasta raiz do projeto *quickstart*  criado e inclua a seguinte linha:
+Agora edite o arquivo config.toml na pasta raiz do projeto _quickstart_  criado e inclua a seguinte linha:
 
 ```
 theme = "ananke"  (Onde Ananke é o nome do tema usado no projeto).
@@ -55,7 +49,7 @@ Com o tema instalado, vamos agora incluir uma postagem de teste.
 hugo new posts/primeira-postagem.md
 ```
 
-Inicie o servidor HUGO  habilitando a visualização das postagens marcadas como rascunho *Drafts*:
+Inicie o servidor HUGO  habilitando a visualização das postagens marcadas como rascunho _Drafts_:
 
 ```
 hugo server -D
@@ -90,10 +84,8 @@ disponíveis.
 
 Até a próxima.
 
+ _Referências:_
 
+_HUGO: Quickstart 2019.Disponível em: <https://gohugo.io/getting-started/quick-start/>_
 
- *Referências:*
-
-*HUGO: Quickstart 2019.Disponível em: <https://gohugo.io/getting-started/quick-start/>*
-
-*HUGO Themes: Complete List 2019.Disponível em: <https://themes.gohugo.io/>*
+_HUGO Themes: Complete List 2019.Disponível em: <https://themes.gohugo.io/>_
