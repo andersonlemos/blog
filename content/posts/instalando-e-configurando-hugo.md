@@ -6,7 +6,7 @@ categories:
   - linux
   - go
   - Como instalar
-autoThumbnailImage: true
+autoThumbnailImage: false
 ---
 ## Quem é esse tal de HUGO?
 
